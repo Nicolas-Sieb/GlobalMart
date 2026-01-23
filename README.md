@@ -1,4 +1,4 @@
-# Superstore
+# GlobalMart
 ## Project Background
 
 GlobalMart, established in 2010, is a global retail company selling Technology, Furniture, and Office Supplies products across 165 countries via its e-commerce platform.
