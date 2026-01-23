@@ -23,7 +23,8 @@ Targeted SQL queries regarding various business questions can be found [here](ht
 
 GlobalMart's database structure consists of a star schema with six dimension tables and one fact table, with a total row count of 49,366 order records.
 
-![Database Schema](images/database-schema.png)
+![Database Layout](images/Database%20Layout-1.png)
+
 
 *Database Entity Relationship Diagram*
 
