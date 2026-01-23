@@ -15,9 +15,9 @@ Insights and recommendations are provided on the following key areas:
 
 An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/nicolas.siebler/viz/SalesPerformanceDashboard_17689124400200/Dashboard1).
 
-The SQL queries utilized to clean, organize, and prepare data for the dashboards can be found [here](#).
+The Python code utilized to clean, organize, and prepare data for the dashboards can be found [here](https://github.com/Nicolas-Sieb/GlobalMart/blob/main/GlobalMart_Data_Cleaning.ipynb).
 
-Targeted SQL queries regarding various business questions can be found [here](#).
+Targeted SQL queries regarding various business questions can be found [here](https://github.com/Nicolas-Sieb/GlobalMart/blob/main/GlobalMart_SQL.ipynb).
 
 ## Data Structure & Initial Checks
 
