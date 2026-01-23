@@ -21,7 +21,25 @@ Targeted SQL queries regarding various business questions can be found [here](ht
 
 ## Data Structure & Initial Checks
 
-GlobalMart's database structure consists of a star schema with six dimension tables and one fact table, with a total row count of 49,366 order records.
+The data for this analysis comes from GlobalMart's transactional database, covering four years of e-commerce sales (2012-2015). The raw dataset contained 49,366 order records with 32 fields including customer information, product details, geographic data, and financial metrics.
+
+### Data Preparation Process
+
+## Data Structure & Initial Checks
+
+The data for this analysis comes from GlobalMart's transactional database, covering four years of e-commerce sales (2012-2015). The raw dataset contained 49,366 order records across 165 countries.
+
+### Why a Database?
+
+As GlobalMart's operations scaled globally, the company's data infrastructure needed to evolve beyond spreadsheet-based analysis. With nearly 50,000 transactions generating over 1.6 million data points, a relational database became essential for:
+
+* **Data Integrity:** Ensuring customer, product, and geographic data remains consistent across all transactions
+* **Query Performance:** Enabling sub-second analysis of complex business questions across multiple dimensions
+* **Scalability:** Supporting continued business growth without requiring infrastructure redesign
+* **Concurrent Access:** Allowing multiple analysts and dashboards to access data simultaneously
+* **Historical Tracking:** Maintaining complete audit trail as new data arrives
+
+A **star schema** was implemented using **SQLite**, consisting of six dimension tables and one fact table:
 
 ![Database Layout](images/Database%20Layout-1.png)
 
@@ -40,7 +58,7 @@ GlobalMart's database structure consists of a star schema with six dimension tab
 | **dim_order_date** | - | Date dimension for order analysis |
 | **dim_ship_date** | - | Date dimension for shipping analysis |
 
-Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the datasets. The SQL queries utilized to inspect and perform quality checks can be found [here](#).
+Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the datasets. The Python data cleaning notebook can be found [here](https://github.com/Nicolas-Sieb/GlobalMart/blob/main/GlobalMart_Data_Cleaning.ipynb). The SQL database creation and analytical queries can be found [here](https://github.com/Nicolas-Sieb/GlobalMart/blob/main/GlobalMart_SQL.ipynb).
 
 ---
 
@@ -52,15 +70,16 @@ GlobalMart generated **$12.15M in revenue** with **$1.41M in profit** (11.62% ma
 
 Asia Pacific represents the largest market (32% of revenue) but delivers below-average margins. Europe demonstrates best-in-class profitability at 13.76% margin, providing a replicable model for other regions. Revenue shows strong year-over-year growth with pronounced Q4 seasonality.
 
-Below are the overview pages from the Power BI (Executive) and Tableau (Product Performance) dashboards. More examples are included throughout the report. The entire interactive dashboards can be downloaded [here](#) and [here](#).
+![Product Analysis Dashboard](images/GlobalMart%20-%20Product%20Analysis%20Dashboard.png)
 
-![Executive Dashboard](images/executive-dashboard.png)
+*Product Performance Dashboard - Category and Product Analysis*
+
+
+![Executive Dashboard](images/GlobalMart%20-%20Executive%20Dashboard-1.png)
 
 *Executive Dashboard Overview - C-Suite KPIs and Performance Metrics*
 
-![Product Dashboard](images/product-dashboard.png)
 
-*Product Performance Dashboard - Category and Product Analysis*
 
 ---
 
@@ -223,66 +242,8 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 * **Seasonality Patterns:** Q4 seasonality based on 4-year historical pattern. Future patterns may shift based on market evolution, competitive actions, or consumer behavior changes.
 
 ---
-
-## Technical Approach
-
-### Data Preparation
-
-Raw sales data containing 49,366 orders was cleaned using **Python (Pandas)** to address missing values, duplicates, and formatting inconsistencies. Data quality checks performed to validate completeness and accuracy. Clean dataset exported for database loading.
-
-### Database Design
-
-**Star schema architecture** implemented using **SQLite** with 6 dimension tables and 1 fact table. Foreign keys established to ensure referential integrity. Indexes created on frequently queried fields for performance optimization. Design enables efficient analytical queries and supports future scalability.
-
-### SQL Analysis
-
-Seven analytical queries developed to answer five core business questions. Advanced SQL techniques utilized: window functions (year-over-year growth), CTEs (monthly aggregations), subqueries (percentage calculations). All queries documented with business context and expected outputs.
-
-### Dashboard Development
-
-**Power BI** used for Executive Dashboard targeting C-suite audience. **Tableau** used for Product Performance Dashboard targeting product managers and marketing teams. Interactive filters and drill-down capabilities enable self-service analytics. Dashboards connected to SQLite database for data refresh capability.
-
----
-
-## Project Files
-
-### Code & Analysis
-
-* [Python Data Cleaning Notebook](#) - Raw data cleaning and preparation
-* [SQL Analysis Notebook](#) - Database creation and analytical queries  
-* [Database File (.db)](#) - SQLite database with complete dataset
-
-### Dashboards
-
-* [Executive Dashboard (.pbix)](#) - Power BI file for C-suite
-* [Product Performance Dashboard (.twbx)](#) - Tableau file for product managers
-* [Dashboard Screenshots](#) - High-resolution images of all visualizations
-
-### Documentation
-
-* [Database ERD](#) - Entity relationship diagram
-* [Data Dictionary](#) - Complete schema documentation
-* [Query Documentation](#) - Business logic for all SQL queries
-
----
-
-## Contact
-
-**Questions about this project?**
-
-* Email: [your.email@example.com](mailto:your.email@example.com)
-* LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-* GitHub: [@yourusername](https://github.com/yourusername)
-* Portfolio: [yourportfolio.com](https://yourportfolio.com)
-
----
-
 ## License
 
 This project is available under the MIT License. GlobalMart is a fictional company created for portfolio demonstration purposes.
 
 ---
-
-**This analysis demonstrates end-to-end business intelligence capabilities:**
-
-Data Engineering (Python, SQL) • Database Design (Star Schema) • Analytical Thinking (SQL Queries) • Executive Communication (Interactive Dashboards)
