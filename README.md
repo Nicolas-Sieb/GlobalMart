@@ -93,9 +93,6 @@ GlobalMart's sales show consistent year-over-year growth from 2012-2015, with **
 * Revenue growth accelerated in 2014-2015, with several quarters showing double-digit sequential growth. This momentum indicates successful market expansion and product strategy execution.
 * **Monthly patterns reveal opportunity in Q1:** Targeted promotional campaigns could smooth revenue distribution and improve working capital efficiency.
 
-![Sales Trends](images/sales-trends.png)
-
-*Year-over-Year Sales Trends showing growth trajectory and Q4 peaks*
 
 ---
 
@@ -132,10 +129,6 @@ GlobalMart's three product categories demonstrate vastly different profitability
 
 **Opportunity:** The stark margin difference between similar technology products suggests pricing inconsistency. Applying Canon Copier's pricing discipline to other high-ticket items could significantly improve profitability.
 
-![Top Products](images/top-products.png)
-
-*Top 10 Products by Revenue with Margin Analysis*
-
 ---
 
 ### Market Regional Performance
@@ -158,9 +151,6 @@ GlobalMart operates across five global markets with significantly different perf
 
 **Business Impact:** Closing the margin gap between Europe (13.76%) and Asia Pacific (9.99%) would generate **$147K additional annual profit** on existing $3.89M APAC revenue base.
 
-![Regional Performance](images/regional-performance.png)
-
-*Global Market Performance showing revenue and margin by region*
 
 ---
 
