@@ -55,8 +55,8 @@ A **star schema** was implemented using **SQLite**, consisting of six dimension 
 | **dim_customers** | 17,995 | Unique customers with segment classification |
 | **dim_geography** | 5,047 | Locations across 165 countries and 5 markets |
 | **dim_ship_mode** | 4 | Shipping method options |
-| **dim_order_date** | - | Date dimension for order analysis |
-| **dim_ship_date** | - | Date dimension for shipping analysis |
+| **dim_order_date** | 1,430 | Date dimension for order analysis |
+| **dim_ship_date** | 1,464 | Date dimension for shipping analysis |
 
 Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the datasets. The Python data cleaning notebook can be found [here](https://github.com/Nicolas-Sieb/GlobalMart/blob/main/GlobalMart_Data_Cleaning.ipynb). The SQL database creation and analytical queries can be found [here](https://github.com/Nicolas-Sieb/GlobalMart/blob/main/GlobalMart_SQL.ipynb).
 
