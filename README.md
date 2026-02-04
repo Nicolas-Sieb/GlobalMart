@@ -75,7 +75,7 @@ Asia Pacific represents the largest market (32% of revenue) but delivers below-a
 *Product Performance Dashboard - Category and Product Analysis*
 
 
-![Executive Dashboard](images/GlobalMart%20-%20Executive%20Dashboard-1.png)
+![Executive Dashboard](images/GlobalMart%20-%20Executive%20Dashboard.png)
 
 *Executive Dashboard Overview - C-Suite KPIs and Performance Metrics*
 
