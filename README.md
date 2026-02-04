@@ -70,12 +70,13 @@ GlobalMart generated **$12.15M in revenue** with **$1.41M in profit** (11.62% ma
 
 Asia Pacific represents the largest market (32% of revenue) but delivers below-average margins. Europe demonstrates best-in-class profitability at 13.76% margin, providing a replicable model for other regions. Revenue shows strong year-over-year growth with pronounced Q4 seasonality.
 
+
 ![Product Analysis Dashboard](images/GlobalMart%20-%20Product%20Analysis%20Dashboard.png)
 
 *Product Performance Dashboard - Category and Product Analysis*
 
 
-![Executive Dashboard](images/GlobalMart%20-%20Executive%20Dashboard.png)
+![Executive Dashboard](images/GlobalMart%20-%20Executive%20Dashboard-1.png)
 
 *Executive Dashboard Overview - C-Suite KPIs and Performance Metrics*
 
