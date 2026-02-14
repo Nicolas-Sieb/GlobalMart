@@ -13,9 +13,6 @@ Insights and recommendations are provided on the following key areas:
 
 - **Regional Market Performance:** Assessment of five global markets (Asia Pacific, Europe, USCA, LATAM, Africa) to guide expansion strategy.
 
-- **Profitability & Margin Analysis:** Examination of profit margins across product categories and profit performance across regional markets, identifying underperforming segments and opportunities for margin improvement.
-
-
 An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/nicolas.siebler/viz/SalesPerformanceDashboard_17689124400200/Dashboard1).
 
 The Python code utilized to clean, organize, and prepare data for the dashboards can be found [here](https://github.com/Nicolas-Sieb/GlobalMart/blob/main/GlobalMart_Data_Cleaning.ipynb).
