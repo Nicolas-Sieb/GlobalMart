@@ -88,16 +88,27 @@ SQL analysis uncovered critical transaction-level issues:
 
 **Recovery Opportunity:** Addressing unprofitable orders and closing regional margin gaps could recover **$150K+ in annual profit** without increasing sales volume.
 
+## Dashboard Deliverables
+
+Two interactive Tableau dashboards were developed to serve different stakeholder needs: This dual-dashboard approach ensures each stakeholder receives relevant insights at the appropriate level of detail—strategic overview for executives, operational depth for product teams.
+
+**Product Performance Dashboard** - Designed for Product Managers
+- Granular product-level sales trends and category mix evolution
+- Detailed product tables for inventory planning and SKU rationalization
+- Operational insights to support day-to-day category management
 
 ![Product Analysis Dashboard](images/GlobalMart%20-%20Product%20Analysis%20Dashboard.png)
 
 *Product Performance Dashboard - Category and Product Analysis*
 
+**Executive Dashboard** - Designed for C-suite leadership (CEO, CFO)
+- High-level KPIs with YoY trends: sales, profit, margins, order volume
+- Strategic view of profit performance across all five global regions
+- Category-level profitability to guide portfolio decisions
 
 ![Executive Dashboard](images/GlobalMart%20-%20Executive%20Dashboard-1.png)
 
 *Executive Dashboard Overview - C-Suite KPIs and Performance Metrics*
-
 
 
 ---
