@@ -99,97 +99,72 @@ Two interactive Tableau dashboards were developed to serve different stakeholder
 - Category-level profitability to guide portfolio decisions
 
 ![Executive Dashboard](images/GlobalMart%20-%20Executive%20Dashboard-1.png)
-
-
-
 ---
 
 ## Insights Deep Dive
 
-### Sales Trends
+### Sales Trends Analysis
 
-GlobalMart's sales show consistent year-over-year growth from 2012-2015, with **pronounced Q4 seasonality** driving peak revenue in November and December.
+GlobalMart's sales demonstrate consistent year-over-year growth from 2012-2015, with pronounced **Q4 seasonality** driving peak performance.
 
-* **Q4 represents the strongest sales period** due to holiday consumer behavior, with November averaging 15-20% higher revenue than typical months. Q1 (January-March) consistently underperforms, creating cash flow challenges.
-* Revenue growth accelerated in 2014-2015, with several quarters showing double-digit sequential growth. This momentum indicates successful market expansion and product strategy execution.
-* **Monthly patterns reveal opportunity in Q1:** Targeted promotional campaigns could smooth revenue distribution and improve working capital efficiency.
+**Key Findings:**
+- Q4 (Nov-Dec) consistently generates 15-20% higher revenue than average months due to holiday purchasing behavior
+- Revenue growth accelerated in 2014-2015, with several quarters showing double-digit sequential growth
+- Q1 (Jan-Mar) consistently underperforms, creating cash flow challenges and inventory management issues
+- Total order volume grew from 8,307 orders in 2012 to 16,692 orders in 2015, demonstrating strong customer acquisition
 
+**Business Impact:** Targeted Q1 promotional campaigns could smooth revenue distribution and improve working capital efficiency by reducing seasonal variance.
 
 ---
 
 ### Product Category Performance
 
-GlobalMart's three product categories demonstrate vastly different profitability profiles:
+GlobalMart's three product categories demonstrate vastly different profitability profiles, with Technology leading and Furniture significantly underperforming.
 
 | Category | Revenue | % of Total | Profit Margin | Orders | Assessment |
 |----------|---------|------------|---------------|--------|------------|
-| **Technology** | $4.56M | 37.5% | 14.04% | 33,946 | Strongest performer |
-| **Office Supplies** | $3.65M | 30.0% | 13.86% | 104,183 | Solid margins, high frequency |
-| **Furniture** | $3.94M | 32.4% | 6.77% | 33,534 | Critical underperformer |
+| **Technology** | $4.56M | 37.5% | **14.05%** | 33,946 | Strongest performer |
+| **Office Supplies** | $3.65M | 30.0% | 13.80% | 104,183 | Solid margins, high frequency |
+| **Furniture** | $3.94M | 32.4% | **6.77%** | 33,534 | Critical underperformer |
 
 **Key Insights:**
 
-* **Technology delivers optimal performance:** With 14.04% margins and $4.56M revenue, this category should receive increased marketing investment and inventory prioritization.
-* **Furniture presents urgent concern:** Despite generating 32% of total revenue, Furniture's 6.77% margin is **half the company average**. This suggests excessive discounting, high cost of goods, or competitive pricing pressure.
-* **Office Supplies demonstrates consistency:** High order frequency (104,183 orders) with solid 13.86% margins indicates strong repeat purchase behavior and pricing discipline.
+**Technology Excellence:** 14.05% margin with $4.56M revenue validates category strategy. This category shows consistent margin discipline and strong customer willingness to pay premium prices for quality products.
 
-**Business Impact:** Bringing Furniture margins from 6.77% to company average (11.62%) would generate an additional **$190K in annual profit** without increasing sales volume.
+**Furniture Crisis:** Despite generating 32% of total revenue, Furniture's 6.77% margin is **half the company average** (11.62%). This represents the single largest margin improvement opportunity in the portfolio and suggests excessive discounting, unfavorable supplier terms, or competitive pricing pressure.
 
----
+**Office Supplies Consistency:** Highest order frequency (104,183 orders) with 13.80% margins indicates strong repeat purchase behavior and effective pricing discipline. This category demonstrates the value of high-volume, steady-margin business.
 
-### Top Product Performance
+**Product-Level Variance (SQL Analysis):**  
+Deep-dive analysis reveals significant margin inconsistency even within high-performing categories. Top revenue-generating products show margins ranging from 40.91% (Canon imageCLASS Copier) to -0.41% (Samsung Smart Phone), indicating pricing optimization opportunities within the Technology portfolio.
 
-**Critical Finding:** Top 10 products account for only 4.95% of total revenue, indicating healthy diversification and reduced concentration risk.
-
-**Technology Dominance:** 8 of top 10 revenue-generating products are Technology items (smartphones, copiers, office equipment), validating category strategy.
-
-**Profitability Variance:**
-
-* Canon imageCLASS Copier achieves **40.91% margin** on $61.6K revenue
-* Samsung Smart Phone (rank #8, $48.7K revenue) operates at **-0.41% margin** (losing money)
-
-**Opportunity:** The stark margin difference between similar technology products suggests pricing inconsistency. Applying Canon Copier's pricing discipline to other high-ticket items could significantly improve profitability.
+**Business Impact:** Bringing Furniture margins from 6.77% to company average (11.62%) would generate **$190K in additional annual profit** without increasing sales volume.
 
 ---
 
-### Market Regional Performance
+### Regional Market Performance
 
-GlobalMart operates across five global markets with significantly different performance profiles:
+GlobalMart operates across five global markets with significantly different performance and growth characteristics.
 
-| Market | Revenue | % of Total | Profit Margin | Orders | Customers | Revenue/Customer |
-|--------|---------|------------|---------------|--------|-----------|------------------|
-| **Asia Pacific** | $3.89M | 32.03% | 9.99% | 13,750 | 5,083 | $765.74 |
-| **Europe** | $3.17M | 26.08% | **13.76%** | 11,320 | 4,196 | $755.32 |
-| **USCA** | $2.27M | 18.66% | 13.04% | 9,970 | 2,851 | $795.39 |
-| **LATAM** | $2.07M | 17.07% | 9.98% | 9,916 | 3,790 | $547.40 |
-| **Africa** | $0.75M | 6.16% | 11.24% | 4,410 | 2,075 | $360.56 |
+| Market | Revenue | % of Total | Orders | Customers | Revenue/Customer |
+|--------|---------|------------|--------|-----------|------------------|
+| **Asia Pacific** | $3.89M | 32.03% | 13,750 | 5,083 | $765.74 |
+| **Europe** | $3.17M | 26.08% | 11,320 | 4,196 | $755.32 |
+| **USCA** | $2.27M | 18.66% | 9,970 | 2,851 | **$795.39** |
+| **LATAM** | $2.07M | 17.07% | 9,916 | 3,790 | $547.40 |
+| **Africa** | $0.75M | 6.16% | 4,410 | 2,075 | $360.56 |
 
 **Key Findings:**
 
-* **Asia Pacific leads volume but lags profitability:** As the largest market (32% of revenue), APAC's 9.99% margin falls 1.63 points below company average. This represents the highest-value improvement opportunity given revenue scale.
-* **Europe provides blueprint for success:** 13.76% margin is 3.77 points above Asia Pacific despite similar product mix. Replicating European practices (pricing strategy, operational efficiency, product mix) could unlock significant margin gains.
-* **USCA shows premium positioning:** Highest revenue per customer ($795.39) suggests more affluent customer base or higher AOV, despite moderate market size.
+**Asia Pacific - Volume Leader:** Represents the largest market at 32% of revenue with broad customer base (5,083 customers), indicating successful market penetration. Profit trends show steady growth, though margin optimization opportunities exist.
 
-**Business Impact:** Closing the margin gap between Europe (13.76%) and Asia Pacific (9.99%) would generate **$147K additional annual profit** on existing $3.89M APAC revenue base.
+**Europe - Strong Performer:** Demonstrates accelerating profit growth with consistent performance across all product categories. Revenue per customer ($755.32) similar to APAC suggests comparable customer profiles, yet profit performance indicates superior operational efficiency.
 
+**USCA - Premium Market:** Highest revenue per customer ($795.39) suggests more affluent customer base or higher average order values. Despite moderate market size (18.66% of revenue), profit trends show strong acceleration in recent quarters.
 
----
+**LATAM & Africa - Growth Markets:** Combined represent 23% of revenue with developing customer bases. Lower revenue per customer indicates price-sensitive markets requiring localized strategy.
 
-### Unprofitable Orders Analysis
-
-**Critical Issue:** 24.5% of all orders (12,083 transactions) operate at a loss, significantly above industry benchmark of 10-15%.
-
-**Potential Root Causes:**
-
-* Excessive discounting (>30% off)
-* High shipping costs relative to order value
-* Negative-margin products in order mix
-* Pricing errors or promotional mismanagement
-
-**Immediate Action Required:** Implement discount approval workflow for orders with >20% price reduction. Analyze shipping cost allocation methodology to ensure proper coverage.
-
-**Recovery Potential:** Reducing unprofitable order rate from 24.5% to 15% (industry benchmark) could recover **$150K+ in annual profit**.
-
+**Business Impact:** All five markets demonstrate positive growth trajectories. Continued investment in high-performing regions (Europe, USCA) while implementing margin improvement initiatives in high-volume markets (APAC, LATAM) can drive sustainable profit growth.
 ---
 
 ## Recommendations
