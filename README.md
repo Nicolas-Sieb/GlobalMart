@@ -69,10 +69,6 @@ Prior to beginning the analysis, a variety of checks were conducted for quality 
 
 ### Overview of Findings
 
-## Executive Summary
-
-### Overview of Findings
-
 GlobalMart generated **$12.15M in revenue** with **$1.41M in profit** (11.62% margin) across 49,366 orders from 2012-2015. Revenue shows strong year-over-year growth with pronounced Q4 seasonality.
 
 Technology leads profitability at **14.05% margin**, while Furniture underperforms at only **6.77%** despite generating 32% of revenue. This margin gap represents the highest-value improvement opportunity—bringing Furniture to company average would generate **$190K in additional annual profit**.
