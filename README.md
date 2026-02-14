@@ -7,10 +7,13 @@ The company has significant amounts of data on its sales, operational efficiency
 
 Insights and recommendations are provided on the following key areas:
 
-* **Sales Trends Analysis:** Evaluation of historical sales patterns from 2012-2015, focusing on Revenue, Order Volume, and profitability trends.
-* **Product Category Performance:** An analysis of Technology, Furniture, and Office Supplies categories, understanding their impact on overall profitability.
-* **Market Regional Performance:** An assessment of the five global markets (Asia Pacific, Europe, USCA, LATAM, Africa) to guide expansion strategy.
-* **Unprofitable Orders:** An evaluation of loss-making transactions to identify pricing and discount management issues.
+- **Sales Trends Analysis:** Evaluation of historical sales patterns from 2012-2015, focusing on revenue growth, order volume, and seasonal patterns.
+
+- **Product Category Performance:** Analysis of Technology, Furniture, and Office Supplies categories, comparing revenue contribution and profitability.
+
+- **Regional Market Performance:** Assessment of five global markets (Asia Pacific, Europe, USCA, LATAM, Africa) to guide expansion strategy.
+
+- **Profitability & Margin Analysis:** Examination of profit margins across product categories and profit performance across regional markets, identifying underperforming segments and opportunities for margin improvement.
 
 
 An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/nicolas.siebler/viz/SalesPerformanceDashboard_17689124400200/Dashboard1).
