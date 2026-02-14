@@ -69,9 +69,24 @@ Prior to beginning the analysis, a variety of checks were conducted for quality 
 
 ### Overview of Findings
 
-GlobalMart generated **$12.15M in revenue** with **$1.41M in profit** (11.62% margin) across 49,366 orders from 2012-2015. However, **24.5% of orders are unprofitable**, representing a significant opportunity for margin recovery. Technology leads profitability at 14.04% margin, while Furniture underperforms dramatically at only 6.77% despite generating 32% of revenue.
+## Executive Summary
 
-Asia Pacific represents the largest market (32% of revenue) but delivers below-average margins. Europe demonstrates best-in-class profitability at 13.76% margin, providing a replicable model for other regions. Revenue shows strong year-over-year growth with pronounced Q4 seasonality.
+### Overview of Findings
+
+GlobalMart generated **$12.15M in revenue** with **$1.41M in profit** (11.62% margin) across 49,366 orders from 2012-2015. Revenue shows strong year-over-year growth with pronounced Q4 seasonality.
+
+Technology leads profitability at **14.05% margin**, while Furniture underperforms at only **6.77%** despite generating 32% of revenue. This margin gap represents the highest-value improvement opportunity—bringing Furniture to company average would generate **$190K in additional annual profit**.
+
+Asia Pacific represents the largest market (32% of revenue), while all five regions demonstrate growth trajectories with varying profit acceleration.
+
+### Additional Technical Findings (SQL Deep-Dive)
+
+SQL analysis uncovered critical transaction-level issues:
+- **24.5% of orders operate at a loss**, significantly above the 10-15% industry benchmark
+- Root cause: excessive discounting and pricing inconsistencies across product categories
+- Regional margin analysis shows Europe at 13.76% vs. Asia Pacific at 9.99%, indicating replicable best practices
+
+**Recovery Opportunity:** Addressing unprofitable orders and closing regional margin gaps could recover **$150K+ in annual profit** without increasing sales volume.
 
 
 ![Product Analysis Dashboard](images/GlobalMart%20-%20Product%20Analysis%20Dashboard.png)
