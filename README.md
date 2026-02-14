@@ -99,7 +99,6 @@ Two interactive Tableau dashboards were developed to serve different stakeholder
 
 ![Product Analysis Dashboard](images/GlobalMart%20-%20Product%20Analysis%20Dashboard.png)
 
-*Product Performance Dashboard - Category and Product Analysis*
 
 **Executive Dashboard** - Designed for C-suite leadership (CEO, CFO)
 - High-level KPIs with YoY trends: sales, profit, margins, order volume
@@ -108,7 +107,6 @@ Two interactive Tableau dashboards were developed to serve different stakeholder
 
 ![Executive Dashboard](images/GlobalMart%20-%20Executive%20Dashboard-1.png)
 
-*Executive Dashboard Overview - C-Suite KPIs and Performance Metrics*
 
 
 ---
