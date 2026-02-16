@@ -210,18 +210,6 @@ Transaction-level analysis uncovered that 24.5% of orders operate at a loss, sig
 
 Total Estimated Annual Profit Opportunity: $416K+ (29.5% improvement)
 
-
-## Assumptions and Caveats
-
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
-
-* **Historical Data Only:** Analysis covers 2012-2015 period. Current market conditions, competition, and customer behavior may have changed since this timeframe.
-* **Margin Calculations:** Profit margins calculated from sales and profit figures in database. Does not account for full cost accounting (overhead allocation, marketing spend, customer acquisition costs).
-* **Unprofitable Order Analysis:** Root cause analysis for 24.5% unprofitable orders requires additional data on discount policies, shipping contracts, and order-level cost allocation not available in current dataset.
-* **Market Comparisons:** Regional performance differences may reflect local economic conditions, competitive landscapes, and operational maturity not captured in transaction data alone.
-* **Seasonality Patterns:** Q4 seasonality based on 4-year historical pattern. Future patterns may shift based on market evolution, competitive actions, or consumer behavior changes.
-
----
 ## License
 
 This project is available under the MIT License. GlobalMart is a fictional company created for portfolio demonstration purposes.
