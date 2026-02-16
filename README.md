@@ -99,7 +99,6 @@ Two interactive Tableau dashboards were developed to serve different stakeholder
 - Category-level profitability to guide portfolio decisions
 
 ![Executive Dashboard](images/GlobalMart%20-%20Executive%20Dashboard-1.png)
----
 
 ## Insights Deep Dive
 
@@ -138,9 +137,8 @@ GlobalMart's three product categories demonstrate vastly different profitability
 **Product-Level Variance (SQL Analysis):**  
 Deep-dive analysis reveals significant margin inconsistency even within high-performing categories. Top revenue-generating products show margins ranging from 40.91% (Canon imageCLASS Copier) to -0.41% (Samsung Smart Phone), indicating pricing optimization opportunities within the Technology portfolio.
 
-**Business Impact:** Bringing Furniture margins from 6.77% to company average (11.62%) would generate **$190K in additional annual profit** without increasing sales volume.
+**Business Impact:** Bringing Furniture margins from 6.77% to company average (11.62%) would generate $190K in additional annual profit without increasing sales volume.
 
----
 
 ### Regional Market Performance
 
@@ -165,7 +163,7 @@ GlobalMart operates across five global markets with significantly different perf
 **LATAM & Africa - Growth Markets:** Combined represent 23% of revenue with developing customer bases. Lower revenue per customer indicates price-sensitive markets requiring localized strategy.
 
 **Business Impact:** All five markets demonstrate positive growth trajectories. Continued investment in high-performing regions (Europe, USCA) while implementing margin improvement initiatives in high-volume markets (APAC, LATAM) can drive sustainable profit growth.
----
+
 
 ## Recommendations
 
@@ -211,10 +209,8 @@ Transaction-level analysis uncovered that 24.5% of orders operate at a loss, sig
 
 - **Discount Management Controls:** Implement approval workflows for discounts exceeding 20% and analyze patterns in loss-making transactions to identify systematic pricing issues. Reducing unprofitable order rate from 24.5% to 15% could recover **$150K/year**.
 
----
+Total Estimated Annual Profit Opportunity: $416K+ (29.5% improvement)
 
-**Total Estimated Annual Profit Opportunity: $416K+ (29.5% improvement)**
----
 
 ## Assumptions and Caveats
 
