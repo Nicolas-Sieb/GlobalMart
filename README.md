@@ -23,11 +23,6 @@ Targeted SQL queries regarding various business questions can be found [here](ht
 
 The data for this analysis comes from GlobalMart's transactional database, covering four years of e-commerce sales (2012-2015). The raw dataset contained 49,366 order records with 32 fields including customer information, product details, geographic data, and financial metrics.
 
-
-## Data Structure & Initial Checks
-
-The data for this analysis comes from GlobalMart's transactional database, covering four years of e-commerce sales (2012-2015). The raw dataset contained 49,366 order records across 165 countries.
-
 ### Why a Database?
 
 As GlobalMart's operations scaled globally, the company's data infrastructure needed to evolve beyond spreadsheet-based analysis. With nearly 50,000 transactions generating over 1.6 million data points, a relational database became essential for:
@@ -58,8 +53,6 @@ A **star schema** was implemented using **SQLite**, consisting of six dimension 
 | **dim_ship_date** | 1,464 | Date dimension for shipping analysis |
 
 Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the datasets. The Python data cleaning notebook can be found [here](https://github.com/Nicolas-Sieb/GlobalMart/blob/main/GlobalMart_Data_Cleaning.ipynb). The SQL database creation and analytical queries can be found [here](https://github.com/Nicolas-Sieb/GlobalMart/blob/main/GlobalMart_SQL.ipynb).
-
----
 
 ## Executive Summary
 
@@ -113,7 +106,6 @@ GlobalMart's sales demonstrate consistent year-over-year growth from 2012-2015, 
 
 **Business Impact:** Targeted Q1 promotional campaigns could smooth revenue distribution and improve working capital efficiency by reducing seasonal variance.
 
----
 
 ### Product Category Performance
 
@@ -214,4 +206,3 @@ Total Estimated Annual Profit Opportunity: $416K+ (29.5% improvement)
 
 This project is available under the MIT License. GlobalMart is a fictional company created for portfolio demonstration purposes.
 
----
