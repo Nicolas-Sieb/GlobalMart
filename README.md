@@ -23,7 +23,6 @@ Targeted SQL queries regarding various business questions can be found [here](ht
 
 The data for this analysis comes from GlobalMart's transactional database, covering four years of e-commerce sales (2012-2015). The raw dataset contained 49,366 order records with 32 fields including customer information, product details, geographic data, and financial metrics.
 
-### Data Preparation Process
 
 ## Data Structure & Initial Checks
 
